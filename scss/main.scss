@@ -407,6 +407,7 @@ margin-bottom: 15px;
 }
 
 .referance__item{
+  width: 500px;
   margin-bottom: 15px;
 }
 
@@ -446,8 +447,12 @@ line-height: 28px;
 }
 
 .contact__inner{
-  display: flex;
-  justify-content: space-between;
+ display: flex;
+ justify-content: space-between;
+}
+
+.contact__right{
+  width: 540px;
 }
 
 .right__input{
@@ -458,6 +463,8 @@ line-height: 28px;
   padding: 7px 0 7px 10px;
   margin-top: 24px;
   margin-bottom: 16px;
+  border-bottom: 1px solid gray;
+  outline: none;
 }
 
 .right__input::placeholder{
@@ -482,6 +489,7 @@ background-color: rgba(255, 255, 255, 1);
 }
 
 .right__button{
+  display: block;
   color:rgba(110, 200, 199, 1) ;
   margin-top: 25px;
   padding: 10px 32px;
@@ -498,6 +506,10 @@ transition: all 0.4s ease;
 .right__button:hover{
   color: rgba(0, 64, 71, 1);
   background-color: rgba(255, 255, 255, 1);
+}
+
+.right__form{
+  width: 540px;
 }
 
 
